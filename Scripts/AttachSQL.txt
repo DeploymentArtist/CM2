@@ -1,0 +1,18 @@
+USE [master]
+GO
+CREATE DATABASE [CM_PS1] ON 
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1.mdf' ),
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1_log.LDF' ),
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1_2.mdf' ),
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1_3.mdf' ),
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1_4.mdf' ),
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1_5.mdf' ),
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1_6.mdf' ),
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1_7.mdf' ),
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1_8.mdf' ),
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1_9.mdf' ),
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1_10.mdf' ),
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1_11.mdf' ),
+( FILENAME = N'D:\CM2012.BCK\PS1Backup\SiteDBServer\CM_PS1_12.mdf' )
+ FOR ATTACH
+GO
